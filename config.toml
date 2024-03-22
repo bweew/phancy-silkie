@@ -1,0 +1,22 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Phancy Silkie"
+rssLimit = 20
+copyright = "2021 Janne Kemppainen All rights reserved"
+minify = false
+paginate = 20
+
+[Author]
+  name = "sharadcodes"
+  email = "me@example.com"
+
+[permalinks]
+  posts = "/:year/:month/:day/:filename"
+  pages = "/:slug"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["html", "json", "rss"]
